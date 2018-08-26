@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "outDir": "build",
+    "rootDir": "server",
+  },
+  "exclude": [
+    "/node_modules/"
+  ],
+  "compileOnSave": true
+}
