@@ -1,5 +1,5 @@
-import * as express from 'express'
 import * as bodyParser from 'body-parser'
+import * as express from 'express'
 
 // Create Express Application
 const app = express()
@@ -22,6 +22,7 @@ app.get('*', (_, res) => {
 // Start App listening
 const PORT = process.env.PORT || 6969
 app.listen(PORT, () => {
+  // tslint:disable:no-console
   console.clear()
   console.log('Server running.')
   console.log(`Listening on port ${PORT}`)
