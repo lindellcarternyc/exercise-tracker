@@ -2,7 +2,7 @@
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "outDir": "build",
-    "rootDir": "server",
+    "rootDir": "src",
   },
   "exclude": [
     "/node_modules/"
