@@ -16,7 +16,7 @@
   },
   "scripts": {
     "compile": "tsc -p ./",
-    "start": "node ./build/index.js",
-    "dev": "nodemon ./build/index.js"
+    "start": "node ./build/server/index.js",
+    "dev": "nodemon ./build/server/index.js"
   }
 }
